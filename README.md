@@ -13,7 +13,7 @@ This is a basic React project that focuses on using useEffect to fetch data from
 1. Clone this project
 
 ```
-git clone    https://github.com/Dwaysetya/fgo24-react-pages.git
+git clone    https://github.com/Dwaysetya/fgo24-react-hooks.git
 ```
 
 2. Enter the project firectory
@@ -25,7 +25,7 @@ cd directory-name
 3. Install the Depedencies
 
 ```
- npm create vite@latest react-demo -- --template react
+ npm create vite@latest name-file -- --template react
 ```
 
 4. Install the Depedencies
