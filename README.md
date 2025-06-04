@@ -19,28 +19,47 @@ git clone    https://github.com/Dwaysetya/fgo24-react-hooks.git
 2. Enter the project firectory
 
 ```
-cd directory-name
+cd fgo24-react-hooks
 ```
 
 3. Install the Depedencies
 
 ```
- npm create vite@latest name-file -- --template react
-```
-
-4. Install the Depedencies
-
-```
 npm install
 ```
 
-5. run the project
+4. run the project
 
 ```
 npm run dev
 ```
 
-6. Project will running on (http://localhost:5173/)
+5. Project will running on (http://localhost:8090/)
+
+## With Docker
+
+1. Clone this project
+
+```
+git clone    https://github.com/Dwaysetya/fgo24-react-hooks.git
+```
+
+2. Get into the path
+
+```
+cd fgo24-react-hooks
+```
+
+3. Build image
+
+```
+docker build . -t react-hook:latest
+```
+
+4. Run image with docker
+```
+docker run -p 8090:80 -d react-hook:latest
+```
 
 ## Depedencies
 
